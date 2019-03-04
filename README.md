@@ -1,6 +1,6 @@
-# Skema
-
-A visualization tool for use by UNBC faculty and staff to view and provide feedback on draft course schedules
+![](https://github.com/GraemeRMorgan/Skema/blob/master/skema-logo.jpg)
+# SKEMA
+> SKEMA is a simple web application developed to simplify the process of creating a course schedule within the UNBC scheduling department. It is a visualization tool for use by UNBC faculty and staff to view and provide feedback on draft course schedules.
 
 
 ***
@@ -59,3 +59,6 @@ The database can only be manipulated with one command line action:
     flask fill_database <file> <semesterName>
 
 will fill the database with the data in the file.  An error is thrown if the file does not contain the correct data.  This works the same as the admin page but is easier to debug with than the page.
+
+![](https://github.com/GraemeRMorgan/Skema/blob/master/skema-screenshot2.jpg)
+![](https://github.com/GraemeRMorgan/Skema/blob/master/skema-screenshot1.jpg)
